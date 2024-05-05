@@ -1,0 +1,24 @@
+# Android-specific
+.gradle/
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+.DS_Store
+/build/
+/captures/
+
+# Generated files
+*.class
+*.jar
+*.war
+*.ear
+*.apk
+*.dex
+*.so
+*.log
+*.iml
+/.gradle/
+/captures/
+/app/build/
+
+app/google-services.json
