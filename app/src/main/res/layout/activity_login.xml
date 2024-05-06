@@ -11,7 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/instagram"
-        android:text="Instagram"
+        android:text="Facegram"
         android:fontFamily="@font/bilbo_swash_caps"
         android:textStyle="bold"
         android:textSize="50sp"
@@ -92,33 +92,9 @@
         android:layout_below="@id/Login_btn"/>
 
     <!--*******OR**********-->
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/line"
-        android:layout_marginStart="15dp"
-        android:layout_marginEnd="15dp"
-        android:orientation="horizontal"
-        android:layout_below="@id/forgotpass"
-        android:weightSum="100">
 
-        <TableRow
-            android:id="@+id/hr"
-            android:layout_width="0dp"
-            android:layout_height="1dp"
-            android:layout_marginTop="12dp"
-            android:background="@color/textcolor"
-            android:layout_weight="45"/>
 
-        <TableRow
-            android:id="@+id/dr"
-            android:layout_width="0dp"
-            android:layout_marginTop="12dp"
-            android:layout_height="1dp"
-            android:background="@color/textcolor"
-            android:layout_weight="45"/>
-    </LinearLayout>
-
+    <!--*******Login with facebook**********-->
 
 
     <!--*******line**********-->
