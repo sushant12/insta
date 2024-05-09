@@ -26,7 +26,6 @@ public class Login extends AppCompatActivity {
     TextInputLayout Email, Pass;
     Button login;
     TextView Forgotpassword;
-    TextView loginwithfacebook;
     FirebaseAuth FAuth;
     String email;
     String password;

@@ -2,6 +2,8 @@ package my.insta.cs4084.Search;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -30,6 +32,8 @@ import java.util.List;
 import java.util.Map;
 
 import my.insta.cs4084.Profile.FollowersFollowing;
+import my.insta.cs4084.Profile.ProfileFragment;
+import my.insta.cs4084.Profile.ViewPostFragment;
 import my.insta.cs4084.R;
 import my.insta.cs4084.Utils.GridImageAdapter;
 import my.insta.cs4084.models.Comments;

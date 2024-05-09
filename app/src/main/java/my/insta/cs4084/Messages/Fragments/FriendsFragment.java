@@ -6,6 +6,7 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
+import androidx.viewpager.widget.ViewPager;
 
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -24,6 +25,7 @@ import java.util.List;
 
 import my.insta.cs4084.Messages.Adapter.FriendsAdapter;
 import my.insta.cs4084.R;
+import my.insta.cs4084.Utils.SearchUsersAdapter;
 import my.insta.cs4084.models.Users;
 
 

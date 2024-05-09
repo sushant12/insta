@@ -27,6 +27,7 @@ import java.util.Set;
 
 import my.insta.cs4084.Messages.Adapter.FriendsAdapter;
 import my.insta.cs4084.Messages.Model.Chat;
+import my.insta.cs4084.Messages.Model.Chatlist;
 import my.insta.cs4084.Messages.Notification.Token;
 import my.insta.cs4084.R;
 import my.insta.cs4084.models.Users;

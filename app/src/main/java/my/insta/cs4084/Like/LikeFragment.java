@@ -21,12 +21,15 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
 
 import my.insta.cs4084.R;
 import my.insta.cs4084.Utils.LikeNotificationAdapter;
+import my.insta.cs4084.Utils.SearchUsersAdapter;
 import my.insta.cs4084.models.Notification;
+import my.insta.cs4084.models.Users;
 
 public class LikeFragment extends Fragment {
 

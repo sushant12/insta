@@ -11,11 +11,13 @@ import android.os.Bundle;
 import android.view.MenuItem;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
+import com.nostra13.universalimageloader.core.ImageLoader;
 
 import my.insta.cs4084.Like.LikeFragment;
 import my.insta.cs4084.Post.PostActivity;
 import my.insta.cs4084.Profile.ProfileFragment;
 import my.insta.cs4084.Search.SearchFragment;
+import my.insta.cs4084.Utils.UniversalImageLoader;
 import my.insta.cs4084.home.HomeFragment;
 
 public class Home extends AppCompatActivity implements BottomNavigationView.OnNavigationItemSelectedListener {

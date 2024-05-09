@@ -1,6 +1,7 @@
 package my.insta.cs4084.Utils;
 
 import android.content.Context;
+import android.content.Intent;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -22,7 +23,10 @@ import com.nostra13.universalimageloader.core.ImageLoader;
 import java.util.List;
 
 import my.insta.cs4084.R;
+import my.insta.cs4084.Search.UserSearchProfileActivity;
+import my.insta.cs4084.Search.UserSearchViewPost;
 import my.insta.cs4084.models.Notification;
+import my.insta.cs4084.models.Photo;
 import my.insta.cs4084.models.Users;
 
 public class LikeNotificationAdapter extends RecyclerView.Adapter<LikeNotificationAdapter.ViewHolder>{

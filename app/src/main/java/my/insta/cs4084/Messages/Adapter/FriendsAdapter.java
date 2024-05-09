@@ -25,6 +25,7 @@ import de.hdodenhof.circleimageview.CircleImageView;
 import my.insta.cs4084.Messages.MessageActivity;
 import my.insta.cs4084.Messages.Model.Chat;
 import my.insta.cs4084.R;
+import my.insta.cs4084.Utils.SearchUsersAdapter;
 import my.insta.cs4084.models.Users;
 
 public class FriendsAdapter extends RecyclerView.Adapter<FriendsAdapter.ViewHolder> {

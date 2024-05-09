@@ -13,11 +13,14 @@ import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.LayoutRes;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.recyclerview.widget.RecyclerView;
 
+import com.bumptech.glide.Glide;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -37,10 +40,12 @@ import java.util.List;
 import de.hdodenhof.circleimageview.CircleImageView;
 import my.insta.cs4084.Profile.ViewComments;
 import my.insta.cs4084.R;
+import my.insta.cs4084.Search.UserSearchViewPost;
 import my.insta.cs4084.models.Comments;
 import my.insta.cs4084.models.Likes;
 import my.insta.cs4084.models.Photo;
 import my.insta.cs4084.models.Users;
+import my.insta.cs4084.models.privatedetails;
 
 public class HomeFragmentPostViewListAdapter extends ArrayAdapter<Photo> {
 

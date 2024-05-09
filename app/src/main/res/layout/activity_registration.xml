@@ -104,8 +104,7 @@
                 <com.hbb20.CountryCodePicker
                     android:id="@+id/countrycode"
                     android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    app:ccp_defaultNameCode="IE" >
+                    android:layout_height="match_parent">
                 </com.hbb20.CountryCodePicker>
 
                 <com.google.android.material.textfield.TextInputLayout

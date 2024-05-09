@@ -3,6 +3,8 @@ package my.insta.cs4084.Utils;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;
 
+import my.insta.cs4084.Post.PostActivity;
+
 public class methods {
 
     //******************************METHOD TO GET POST COUNT***********************
